@@ -55,12 +55,12 @@ never:       trusting a model that hasn't been quantized in anger
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=bozdemir&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=bozdemir&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
 
-![Streak](https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight&hide_border=true)
+![Streak](https://github-readme-streak-stats.herokuapp.com/?user=bozdemir&theme=tokyonight&hide_border=true)
 
-![Trophies](https://github-profile-trophy.vercel.app/?username=YOUR_USERNAME&theme=tokyonight&no-frame=true&column=7)
+![Trophies](https://github-profile-trophy.vercel.app/?username=bozdemir&theme=tokyonight&no-frame=true&column=7)
 
 </div>
 
@@ -76,6 +76,6 @@ When I'm not arguing with a CUDA kernel, I'm probably on a motorcycle with an ac
 
 *"Ship it to the edge or it didn't happen."*
 
-![Profile Views](https://komarev.com/ghpvc/?username=YOUR_USERNAME&style=flat-square&color=1f6feb)
+![Profile Views](https://komarev.com/ghpvc/?username=bozdemir&style=flat-square&color=1f6feb)
 
 </div>

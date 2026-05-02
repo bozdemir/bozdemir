@@ -1,4 +1,4 @@
-name: Generate Stats Images
+name: Generate Metrics
 
 on:
   push:
@@ -8,15 +8,33 @@ on:
   workflow_dispatch:
 
 jobs:
-  generate-stats:
+  metrics:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-      - uses: jstrieb/github-stats@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          GITHUB_ACTOR: bozdemir
-          EXCLUDE_FORKED_REPOS: "true"
-          INCLUDE_ALL_COMMITS: "true"
+      - name: Overview
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.ACCESS_TOKEN }}
+          user: bozdemir
+          filename: metrics.overview.svg
+          template: classic
+          base: "header, activity, community, repositories, metadata"
+          base_indepth: yes
+          config_timezone: Europe/Istanbul
+
+      - name: Languages
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.ACCESS_TOKEN }}
+          user: bozdemir
+          filename: metrics.languages.svg
+          template: classic
+          base: ""
+          plugin_languages: yes
+          plugin_languages_indepth: yes
+          plugin_languages_limit: 8
+          plugin_languages_details: "percentage, lines"
+          plugin_languages_ignored: "html, css, scss, tex"
+          config_timezone: Europe/Istanbul

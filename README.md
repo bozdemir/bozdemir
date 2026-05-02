@@ -54,8 +54,8 @@ never:       trusting a model that hasn't been quantized in anger
 ### 📊 Some numbers that flatter me
 <div align="center">
 
-![GitHub Stats](./generated/overview.svg)
-![Top Languages](./generated/languages.svg)
+![Metrics](./metrics.overview.svg)
+![Languages](./metrics.languages.svg)
 ![Streak](https://streak-stats.demolab.com?user=bozdemir&theme=tokyonight&hide_border=true)
 ![Trophies](https://github-profile-trophy.vercel.app/?username=bozdemir&theme=tokyonight&no-frame=true&column=7)
 

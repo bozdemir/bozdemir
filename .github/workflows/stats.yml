@@ -1,0 +1,22 @@
+name: Generate Stats Images
+
+on:
+  push:
+    branches: [main, master]
+  schedule:
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate-stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: jstrieb/github-stats@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          GITHUB_ACTOR: bozdemir
+          EXCLUDE_FORKED_REPOS: "true"
+          INCLUDE_ALL_COMMITS: "true"

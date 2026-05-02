@@ -52,14 +52,11 @@ never:       trusting a model that hasn't been quantized in anger
 ---
 
 ### 📊 Some numbers that flatter me
-
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=bozdemir&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=bozdemir&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
-
-![Streak](https://github-readme-streak-stats.herokuapp.com/?user=bozdemir&theme=tokyonight&hide_border=true)
-
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=bozdemir&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&cache_seconds=86400)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=bozdemir&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&cache_seconds=86400)
+![Streak](https://streak-stats.demolab.com?user=bozdemir&theme=tokyonight&hide_border=true)
 ![Trophies](https://github-profile-trophy.vercel.app/?username=bozdemir&theme=tokyonight&no-frame=true&column=7)
 
 </div>

@@ -22,7 +22,10 @@ jobs:
           template: classic
           base: "header, activity, community, repositories, metadata"
           base_indepth: yes
+          repositories_affiliations: "owner, collaborator, organization_member"
+          repositories: 500
           config_timezone: Europe/Istanbul
+          plugin_lines: yes
 
       - name: Languages
         uses: lowlighter/metrics@latest
@@ -32,9 +35,15 @@ jobs:
           filename: metrics.languages.svg
           template: classic
           base: ""
+          repositories_affiliations: "owner, collaborator, organization_member"
+          repositories: 500
           plugin_languages: yes
           plugin_languages_indepth: yes
-          plugin_languages_limit: 8
-          plugin_languages_details: "percentage, lines"
-          plugin_languages_ignored: "html, css, scss, tex"
+          plugin_languages_limit: 12
+          plugin_languages_details: "percentage, lines, bytes"
+          plugin_languages_ignored: "html, css, scss, tex, makefile, dockerfile"
+          plugin_languages_categories: "programming, markup"
+          plugin_languages_threshold: 0%
+          plugin_languages_analysis_timeout: 30
+          plugin_languages_analysis_timeout_repositories: 30
           config_timezone: Europe/Istanbul

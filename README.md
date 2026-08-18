@@ -3,9 +3,9 @@
 # Hi, I'm Burak 👋
 ### *Teaching drones to see so humans don't have to squint*
 
-[![Location](https://img.shields.io/badge/📍-Ankara,_Türkiye-e30a17?style=for-the-badge)](https://en.wikipedia.org/wiki/Ankara)
-[![Focus](https://img.shields.io/badge/🛩️-UAVs_%26_Edge_AI-1f6feb?style=for-the-badge)](#)
-[![Coffee](https://img.shields.io/badge/☕-Probably_on_my_4th-6f4e37?style=for-the-badge)](#)
+[![Location](./assets/badges/location.svg)](https://en.wikipedia.org/wiki/Ankara)
+[![Focus](./assets/badges/focus.svg)](#)
+[![Coffee](./assets/badges/coffee.svg)](#)
 
 </div>
 
@@ -35,19 +35,19 @@ never:       trusting a model that hasn't been quantized in anger
 
 ### 🧰 Tools of the trade
 
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
-![Jetson](https://img.shields.io/badge/Jetson-76B900?style=flat-square&logo=nvidia&logoColor=white)
-![Qt](https://img.shields.io/badge/Qt-41CD52?style=flat-square&logo=qt&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![KDE](https://img.shields.io/badge/KDE_Plasma-1D99F3?style=flat-square&logo=kde&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![MAVLink](https://img.shields.io/badge/MAVLink-3C3C3C?style=flat-square)
-![GStreamer](https://img.shields.io/badge/GStreamer-FF6600?style=flat-square)
+![C++](./assets/badges/cpp.svg)
+![Rust](./assets/badges/rust.svg)
+![Python](./assets/badges/python.svg)
+![PyTorch](./assets/badges/pytorch.svg)
+![OpenCV](./assets/badges/opencv.svg)
+![CUDA](./assets/badges/cuda.svg)
+![Jetson](./assets/badges/jetson.svg)
+![Qt](./assets/badges/qt.svg)
+![Linux](./assets/badges/linux.svg)
+![KDE](./assets/badges/kde.svg)
+![Docker](./assets/badges/docker.svg)
+![MAVLink](./assets/badges/mavlink.svg)
+![GStreamer](./assets/badges/gstreamer.svg)
 
 ---
 
@@ -56,8 +56,8 @@ never:       trusting a model that hasn't been quantized in anger
 
 ![Metrics](./metrics.overview.svg)
 ![Languages](./metrics.languages.svg)
-![Streak](https://streak-stats.demolab.com?user=bozdemir&theme=tokyonight&hide_border=true)
-![Trophies](https://github-profile-trophy.vercel.app/?username=bozdemir&theme=tokyonight&no-frame=true&column=7)
+![Calendar](./metrics.calendar.svg)
+![Achievements](./metrics.achievements.svg)
 
 </div>
 
@@ -72,7 +72,5 @@ When I'm not arguing with a CUDA kernel, I'm probably on a motorcycle with an ac
 <div align="center">
 
 *"Ship it to the edge or it didn't happen."*
-
-![Profile Views](https://komarev.com/ghpvc/?username=bozdemir&style=flat-square&color=1f6feb)
 
 </div>

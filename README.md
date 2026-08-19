@@ -57,6 +57,7 @@ never:       trusting a model that hasn't been quantized in anger
 ![Metrics](./metrics.overview.svg)
 ![Languages](./metrics.languages.svg)
 ![Calendar](./metrics.calendar.svg)
+![Stars](./metrics.stars.svg)
 
 </div>
 

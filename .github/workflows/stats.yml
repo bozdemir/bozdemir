@@ -51,16 +51,18 @@ jobs:
           plugin_isocalendar_duration: full-year
           config_timezone: Europe/Istanbul
 
-      - name: Achievements
+      - name: Habits
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.ACCESS_TOKEN }}
           user: bozdemir
-          filename: metrics.achievements.svg
+          filename: metrics.habits.svg
           template: classic
           base: ""
-          plugin_achievements: yes
-          plugin_achievements_threshold: C
-          plugin_achievements_secrets: yes
-          plugin_achievements_display: compact
+          plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          plugin_habits_trim: yes
           config_timezone: Europe/Istanbul
